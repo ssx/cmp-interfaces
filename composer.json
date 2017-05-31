@@ -1,0 +1,22 @@
+{
+  "name": "ssx/cmp-interfaces",
+  "description": "Base interfaces for example talk",
+  "type": "project",
+  "license": "Apache2.0",
+  "authors": [
+    {
+      "name": "Scott Wilcox",
+      "email": "scott@dor.ky"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Banking\\Interfaces\\": "src/"
+    }
+  }
+}
